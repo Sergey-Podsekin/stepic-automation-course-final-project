@@ -1,7 +1,7 @@
 from pages.login_page import LoginPage
 
 
-def test_check_url(browser):
+def test_login_register_form_and_url(browser):
     link = 'http://selenium1py.pythonanywhere.com/en-gb/accounts/login/'
     page = LoginPage(browser, link)
     page.open()
